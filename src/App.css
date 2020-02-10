@@ -1,0 +1,442 @@
+.App {
+  background-color: #C5CCDC;
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+  cursor: default;
+}
+
+a{
+  text-decoration: none;
+}
+
+.PageContainer {
+  background-color: white;
+  padding: 80px;
+  margin: 80px;
+  width: 70%;
+  height: 90%;
+  border: 1px solid #C5CCDC;
+  border-radius: 25px;
+}
+
+.PageHeader {
+
+}
+
+.HeaderIcon {
+  font-size: 100px;
+  color: #005FFF;
+}
+
+.PageTitle {
+  font-size: 55px;
+}
+
+.PageDescription{
+  margin-bottom: 40px;
+  font-size: 49px;
+  letter-spacing: 2px;
+}
+
+.ChooseState {
+  display: flex;
+  margin-bottom: 80px;
+  justify-content: space-between;
+  margin-top: 80px;
+  
+  
+}
+
+.CurrentState {
+  background-color: #EDF4FF;
+  border: 1px solid #005FFF;
+  border-radius: 5px;
+  flex-basis: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.CurrentInnerState{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #005FFF;
+    border: 1px solid #005FFF;
+    border-radius: 5px;
+}
+
+.ChooseStateArrow{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.NextState {
+  border: 1px solid grey;
+  border-radius: 5px;
+  flex-basis: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.NextInnerState {
+  border: 3px solid #005FFF;
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+
+
+
+.PageFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.PreviousButton {
+  color: grey;
+  border: none;
+  background-color: white;
+}
+.NextButton {
+  color: white; 
+  background-color: #005FFF;
+  border: 1px solid #005FFF;
+  border-radius: 5px;
+  width: 10%;
+  height: 40px;
+  cursor: pointer;
+}
+
+
+/* Mailing Address */
+.MailingAddress{
+  display: flex;
+  flex-wrap: wrap; 
+
+}
+.MailingInputs{
+  height: 45px;
+  width: 100%;
+}
+.MailingInputLabels{
+  display:flex;
+  flex-direction: column;
+}
+
+
+.MailingCountryStateInputs{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.MailingCountryStateInputs .MailingInputLabels {
+  flex-basis: 45%;
+}
+.MailingStreetAddress{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.MailingInputTitle{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.MailingCityPinInputs{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.MailingCityPinInputs .MailingInputLabels {
+  flex-basis: 45%;
+}
+
+.MailingDisclaimer{
+  display: flex;
+  background-color: #F2F7FF;
+  align-items: center;
+  flex-basis: 100%;
+  padding-left: 15px;
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.MailingIcon{
+  color: #005FFF;
+  margin-right: 10px;
+}
+
+
+/* About your company  */
+
+.AboutYourCompany{
+  display: flex;
+  flex-direction: column;
+}
+.AYCompanyLabel{
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px; 
+}
+.AyCompanyIcon{
+  font-size: 15px;
+  text-align: center;
+  color: grey;
+}
+
+
+.AYCompanyInfo{
+  display: flex; 
+  justify-content: space-between;
+}
+.AYCompanyInfoInputLarge{
+  width: 65%;
+  height: 50px;
+}
+.AYCompanyInfoInputSmall{
+  width: 30%;
+}
+
+.MailingIcon{
+
+}
+ 
+
+.AYCompanyLabel{
+
+}
+.AYCompanyDescriptionInput{
+  height: 100px;
+}
+
+/* About You */
+
+.AboutYou{
+  display: flex;
+  flex-direction: column;
+  
+}
+.AboutYouNameInputs{
+  display: flex;
+  justify-content: space-between;
+
+}
+.AboutYouFirstName{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.AboutYouInput{
+  height: 50px;
+}
+.AboutYourFirstName input {
+  height: 50px;
+  border: 1px solid red;
+}
+
+.AboutYouLastName{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.AboutYouPhoneNumber{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.AboutYouIdentifierQuestion{
+  display: flex;
+  flex-direction: column;
+}
+
+.AboutYouIdentifier{
+  display: flex;
+  flex-direction: column;
+}
+
+/*Board of Directors*/
+.BoardOfDirectors {
+  display: flex;
+  flex-direction: column;
+}
+
+.BODAddDirector{
+  color: #005FFF;
+  font-weight: 900;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.BODList{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.BODListFirstName{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  
+}
+.BODListLastName{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  
+}
+#BODDelete{
+  position: relative;
+  left: 105%;
+  bottom: 25%;
+}
+
+/*Business Details*/
+.BusinessDetails{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 25px;;
+}
+
+.BDCorpLabel {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.BDCorpSelect {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.BDShareInformation{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.BDNumberOfShares {
+  width: 45%;
+  margin-bottom: 20px;
+}
+.BDPerValue {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.BDSharesInput{
+  width: 45%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.BDValueInput{
+  width: 45%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+/*ErrorPresent*/
+.ErrorPresent{
+  color: red;
+}
+.ErrorPresentHeader{
+
+}
+.ErrorPresentList{
+
+}
+.ErrorPresentListItem{
+
+}
+.Modal {
+  margin: 0 auto;
+  border: 1px solid #005FFF;
+  background-color: white;
+  position: absolute;
+  left: 30%;
+  top: 70%;
+  border-radius: 25px;
+  z-index: 10;
+  
+}
+/*Modals*/
+.ConfirmDelete{
+  display: flex;
+  justify-content: center;
+}
+.ConfirmDeleteSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ConfirmDeleteError{
+  color: red;
+}
+.ConfirmDeleteButton{
+  width: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20%;
+}
+.ConfirmDeleteInput{
+  height: 50px;
+}
+
+/*Extra Helper*/
+.NotAllowed{
+  cursor: not-allowed;
+}
+
+/*Additional Details Modal*/
+.AdditionalDetailsModal{
+  background-color: white;
+  color: black;
+  word-wrap: normal;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #005FFF;
+  box-shadow: 1px 1px;
+  font-size: 10px;
+}
+
+.AboutYourCompanyModal {
+  position: absolute;
+  top: 65%;
+  left: 35%;
+}
+
+.AboutYouModalSsnQuestion{
+  position: relative;
+  left: 45%;
+  bottom: 50%;
+}
+
+.AboutYouModalSsn {
+  position: relative;
+  left: 45%;
+  bottom: 50%;
+
+}
+
+.BusinessDetailsModal {
+  position: relative;
+  left: 35%;
+  bottom:50%;
+}
