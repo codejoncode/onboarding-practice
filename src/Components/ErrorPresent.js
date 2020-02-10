@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes, { string } from "prop-types";
 
-const ErrorPresent = ({errorMessages}) => {
+const ErrorPresent = ({ errorMessages }) => {
 
     return (
         <div className="ErrorPresent">
@@ -16,5 +16,4 @@ const ErrorPresent = ({errorMessages}) => {
 ErrorPresent.propTypes = {
     errorMessages: PropTypes.arrayOf(string).isRequired
 }
-
 export default ErrorPresent; 

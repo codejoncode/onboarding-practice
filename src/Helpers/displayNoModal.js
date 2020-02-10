@@ -1,5 +1,4 @@
 const displayNoModal = () => {
-    return null; 
+    return null;
 }
-
 export default displayNoModal;

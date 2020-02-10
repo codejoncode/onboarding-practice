@@ -1,12 +1,12 @@
 .App {
-  background-color: #C5CCDC;
+  background-color: #c5ccdc;
   width: 100%;
   height: 100%;
   border: 1px solid red;
   cursor: default;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -16,24 +16,23 @@ a{
   margin: 80px;
   width: 70%;
   height: 90%;
-  border: 1px solid #C5CCDC;
+  border: 1px solid #c5ccdc;
   border-radius: 25px;
 }
 
 .PageHeader {
-
 }
 
 .HeaderIcon {
   font-size: 100px;
-  color: #005FFF;
+  color: #005fff;
 }
 
 .PageTitle {
   font-size: 55px;
 }
 
-.PageDescription{
+.PageDescription {
   margin-bottom: 40px;
   font-size: 49px;
   letter-spacing: 2px;
@@ -44,13 +43,11 @@ a{
   margin-bottom: 80px;
   justify-content: space-between;
   margin-top: 80px;
-  
-  
 }
 
 .CurrentState {
-  background-color: #EDF4FF;
-  border: 1px solid #005FFF;
+  background-color: #edf4ff;
+  border: 1px solid #005fff;
   border-radius: 5px;
   flex-basis: 45%;
   display: flex;
@@ -58,16 +55,16 @@ a{
   align-items: center;
   flex-direction: column;
 }
-.CurrentInnerState{
-    margin-top: 20px;
-    width: 100%;
-    height: 100%;
-    background-color: #005FFF;
-    border: 1px solid #005FFF;
-    border-radius: 5px;
+.CurrentInnerState {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: #005fff;
+  border: 1px solid #005fff;
+  border-radius: 5px;
 }
 
-.ChooseStateArrow{
+.ChooseStateArrow {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -85,15 +82,12 @@ a{
 }
 
 .NextInnerState {
-  border: 3px solid #005FFF;
+  border: 3px solid #005fff;
   margin-top: 20px;
   width: 100%;
   height: 100%;
   border-radius: 5px;
 }
-
-
-
 
 .PageFooter {
   display: flex;
@@ -106,52 +100,48 @@ a{
   background-color: white;
 }
 .NextButton {
-  color: white; 
-  background-color: #005FFF;
-  border: 1px solid #005FFF;
+  color: white;
+  background-color: #005fff;
+  border: 1px solid #005fff;
   border-radius: 5px;
   width: 10%;
   height: 40px;
   cursor: pointer;
 }
 
-
 /* Mailing Address */
-.MailingAddress{
+.MailingAddress {
   display: flex;
-  flex-wrap: wrap; 
-
+  flex-wrap: wrap;
 }
-.MailingInputs{
+.MailingInputs {
   height: 45px;
   width: 100%;
 }
-.MailingInputLabels{
-  display:flex;
+.MailingInputLabels {
+  display: flex;
   flex-direction: column;
 }
 
-
-.MailingCountryStateInputs{
+.MailingCountryStateInputs {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  
 }
 .MailingCountryStateInputs .MailingInputLabels {
   flex-basis: 45%;
 }
-.MailingStreetAddress{
+.MailingStreetAddress {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.MailingInputTitle{
+.MailingInputTitle {
   font-size: 40px;
   margin-bottom: 15px;
 }
-.MailingCityPinInputs{
+.MailingCityPinInputs {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -160,9 +150,9 @@ a{
   flex-basis: 45%;
 }
 
-.MailingDisclaimer{
+.MailingDisclaimer {
   display: flex;
-  background-color: #F2F7FF;
+  background-color: #f2f7ff;
   align-items: center;
   flex-basis: 100%;
   padding-left: 15px;
@@ -171,73 +161,65 @@ a{
   letter-spacing: 2px;
 }
 
-.MailingIcon{
-  color: #005FFF;
+.MailingIcon {
+  color: #005fff;
   margin-right: 10px;
 }
 
-
 /* About your company  */
 
-.AboutYourCompany{
+.AboutYourCompany {
   display: flex;
   flex-direction: column;
 }
-.AYCompanyLabel{
+.AYCompanyLabel {
   font-size: 30px;
   margin-bottom: 20px;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
-.AyCompanyIcon{
+.AyCompanyIcon {
   font-size: 15px;
   text-align: center;
   color: grey;
 }
 
-
-.AYCompanyInfo{
-  display: flex; 
+.AYCompanyInfo {
+  display: flex;
   justify-content: space-between;
 }
-.AYCompanyInfoInputLarge{
+.AYCompanyInfoInputLarge {
   width: 65%;
   height: 50px;
 }
-.AYCompanyInfoInputSmall{
+.AYCompanyInfoInputSmall {
   width: 30%;
 }
 
-.MailingIcon{
-
+.MailingIcon {
 }
- 
 
-.AYCompanyLabel{
-
+.AYCompanyLabel {
 }
-.AYCompanyDescriptionInput{
+.AYCompanyDescriptionInput {
   height: 100px;
 }
 
 /* About You */
-
-.AboutYou{
+.AboutYou {
   display: flex;
   flex-direction: column;
-  
 }
-.AboutYouNameInputs{
+.AboutYouNameInputs {
   display: flex;
   justify-content: space-between;
-
 }
-.AboutYouFirstName{
+.AboutYouFirstName {
   display: flex;
   flex-direction: column;
   width: 45%;
 }
 
-.AboutYouInput{
+.AboutYouInput {
   height: 50px;
 }
 .AboutYourFirstName input {
@@ -245,24 +227,24 @@ a{
   border: 1px solid red;
 }
 
-.AboutYouLastName{
+.AboutYouLastName {
   display: flex;
   flex-direction: column;
   width: 45%;
 }
 
-.AboutYouPhoneNumber{
+.AboutYouPhoneNumber {
   display: flex;
   flex-direction: column;
   width: 45%;
 }
 
-.AboutYouIdentifierQuestion{
+.AboutYouIdentifierQuestion {
   display: flex;
   flex-direction: column;
 }
 
-.AboutYouIdentifier{
+.AboutYouIdentifier {
   display: flex;
   flex-direction: column;
 }
@@ -273,42 +255,40 @@ a{
   flex-direction: column;
 }
 
-.BODAddDirector{
-  color: #005FFF;
+.BODAddDirector {
+  color: #005fff;
   font-weight: 900;
   font-size: 25px;
   cursor: pointer;
 }
 
-.BODList{
+.BODList {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.BODListFirstName{
+.BODListFirstName {
   display: flex;
   flex-direction: column;
   width: 45%;
-  
 }
-.BODListLastName{
+.BODListLastName {
   display: flex;
   flex-direction: column;
   width: 45%;
-  
 }
-#BODDelete{
+#BODDelete {
   position: relative;
   left: 105%;
   bottom: 25%;
 }
 
 /*Business Details*/
-.BusinessDetails{
+.BusinessDetails {
   display: flex;
   flex-wrap: wrap;
-  font-size: 25px;;
+  font-size: 25px;
 }
 
 .BDCorpLabel {
@@ -322,7 +302,7 @@ a{
   margin-bottom: 20px;
 }
 
-.BDShareInformation{
+.BDShareInformation {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -339,79 +319,75 @@ a{
   margin-bottom: 20px;
 }
 
-.BDSharesInput{
+.BDSharesInput {
   width: 45%;
   height: 50px;
   margin-bottom: 20px;
 }
 
-.BDValueInput{
+.BDValueInput {
   width: 45%;
   height: 50px;
   margin-bottom: 20px;
 }
 
 /*ErrorPresent*/
-.ErrorPresent{
+.ErrorPresent {
   color: red;
 }
-.ErrorPresentHeader{
-
+.ErrorPresentHeader {
 }
-.ErrorPresentList{
-
+.ErrorPresentList {
 }
-.ErrorPresentListItem{
-
+.ErrorPresentListItem {
 }
 .Modal {
   margin: 0 auto;
-  border: 1px solid #005FFF;
+  border: 1px solid #005fff;
   background-color: white;
   position: absolute;
   left: 30%;
   top: 70%;
   border-radius: 25px;
   z-index: 10;
-  
 }
 /*Modals*/
-.ConfirmDelete{
+.ConfirmDelete {
   display: flex;
   justify-content: center;
 }
-.ConfirmDeleteSection{
+.ConfirmDeleteSection {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.ConfirmDeleteError{
+.ConfirmDeleteError {
   color: red;
 }
-.ConfirmDeleteButton{
+.ConfirmDeleteButton {
   width: 40%;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 20%;
 }
-.ConfirmDeleteInput{
+.ConfirmDeleteInput {
   height: 50px;
 }
 
 /*Extra Helper*/
-.NotAllowed{
+.NotAllowed {
   cursor: not-allowed;
 }
 
 /*Additional Details Modal*/
-.AdditionalDetailsModal{
+.AdditionalDetailsModal {
   background-color: white;
   color: black;
   word-wrap: normal;
   width: 200px;
   height: 50px;
   border-radius: 10px;
-  border: 1px solid #005FFF;
+  border: 1px solid #005fff;
   box-shadow: 1px 1px;
   font-size: 10px;
 }
@@ -422,7 +398,7 @@ a{
   left: 35%;
 }
 
-.AboutYouModalSsnQuestion{
+.AboutYouModalSsnQuestion {
   position: relative;
   left: 45%;
   bottom: 50%;
@@ -432,11 +408,10 @@ a{
   position: relative;
   left: 45%;
   bottom: 50%;
-
 }
 
 .BusinessDetailsModal {
   position: relative;
   left: 35%;
-  bottom:50%;
+  bottom: 50%;
 }

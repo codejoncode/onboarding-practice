@@ -12,16 +12,14 @@ const helper = (initializeState) => {
 
 let useGenerateState = (...args) => {
 
-    var length = args.length; 
-    const returning = []; 
-    for (let i = 0; i < length; i++){
+    var length = args.length;
+    const returning = [];
+    for (let i = 0; i < length; i++) {
         var [x, y] = helper(args[i])// is the part that would be the problem. 
         returning.push(x);
         returning.push(y);
     }
 
-    return returning; 
+    return returning;
 }
-
-
 export { useGenerateState };

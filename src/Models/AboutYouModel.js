@@ -1,5 +1,5 @@
 class AboutYouModel {
-    constructor(firstName, lastName, phoneNumber, ssnOrItin, IdentifierQuestion){
+    constructor(firstName, lastName, phoneNumber, ssnOrItin, IdentifierQuestion) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;
@@ -7,5 +7,4 @@ class AboutYouModel {
         this.IdentifierQuestion = IdentifierQuestion;
     }
 }
-
 export default AboutYouModel; 
